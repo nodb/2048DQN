@@ -676,19 +676,19 @@ dqn.test(env, nb_episodes=5, visualize=False, verbose=0, callbacks=[Test2048()])
 
 - 각 게임/에피소드에서 얻은 최대 타일
 
-![max_tile](max_tile.png)
+![max_tile](img/max_tile.png)
 
 - 각 게임/에피소드에서 얻은 점수 보상
 
-![reward](reward.png)
+![reward](img/reward.png)
 
 - 평균 최대 타일(50개마다 평균 계산) `self.nb_episodes_for_mean = 50`
 
-![max_tiles_means](max_tiles_means.png)
+![max_tiles_means](img/max_tiles_means.png)
 
 - 평균 점수 보상(50개마다 평균 계산) `self.nb_episodes_for_mean = 50`
 
-![rewards_means](rewards_means.png)
+![rewards_means](img/rewards_means.png)
 
 최대 타일 값과 점수가 에피소드의 학습이 거듭됨에 따라 증가되고 있는 것을 확인할 수 있습니다.
 학습 결과 초반 에피소드의 최대 타일 값은 128~256에 머무르지만 점차 512 값도 나고, 500번 에피소드 이후로는 1024 값도 나오는 것을 확인할 수 있습니다.
